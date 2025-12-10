@@ -9,8 +9,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	
 	
-	@GetMapping
+	@GetMapping("/abra")
 	public String home() {
-		return "hi abhay , jenkins"
-;	}
+		return "hi abhay , jenkins";
+	}
+	
+	@GetMapping("/bbb")
+	public String home1() {
+		return "hi abhay , jenkins";
+	}
+	
+	
 }
